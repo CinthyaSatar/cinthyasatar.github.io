@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flow and Follow - Documentation</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="../../../../css/style.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <a href="../../../../index.html#home" class="nav-link"
+        ><i class="fas fa-home"></i
+      ></a>
+      <a href="../../../../index.html#about" class="nav-link"
+        ><i class="fas fa-user"></i
+      ></a>
+      <a href="../../../../index.html#projects" class="nav-link"
+        ><i class="fas fa-code"></i
+      ></a>
+      <a href="../../../../index.html#contact" class="nav-link"
+        ><i class="fas fa-envelope"></i
+      ></a>
+    </nav>
+
+    <div class="main-content slide-in">
+      <a href="../../../../index.html#projects" class="back-btn">
+        <i class="fas fa-arrow-left"></i> Back to Projects
+      </a>
+
+      <div class="project-header">
+        <h1>Flow and Follow - Documentation</h1>
+        <span class="project-badge">Web Development Course</span>
+      </div>
+
+      <div class="project-section">
+        <h2>About</h2>
+        <p>
+          Flow and Follow is a user-friendly period tracking application that
+          helps users monitor their menstrual cycle. Features include cycle
+          prediction, symptom tracking, and personal health insights.
+        </p>
+      </div>
+
+      <div class="project-section">
+        <h2>Setup Instructions</h2>
+        <h3>Prerequisites</h3>
+        <ul>
+          <li>Python 3.x installed on your computer</li>
+          <li>Command line/terminal access</li>
+        </ul>
+
+        <h3>Installation Steps</h3>
+        <ol>
+          <li>
+            Navigate to the project directory:
+            <code>cd projects/actual_project/webapp</code>
+          </li>
+          <li>
+            Create a virtual environment:
+            <code>python -m venv venv</code>
+          </li>
+          <li>
+            Activate the virtual environment:
+            <br />
+            Windows: <code>.\venv\Scripts\activate</code>
+            <br />
+            Mac/Linux: <code>source venv/bin/activate</code>
+          </li>
+          <li>
+            Install required packages:
+            <code
+              >pip install flask flask-wtf flask-sqlalchemy flask-bcrypt
+              flask-login flask-migrate pillow email_validator</code
+            >
+          </li>
+          <li>
+            Run the application:
+            <code>python run.py</code>
+          </li>
+          <li>
+            Open your web browser and visit:
+            <code>http://127.0.0.1:5000</code>
+          </li>
+        </ol>
+      </div>
+
+      <div class="project-section">
+        <h2>Features</h2>
+        <ul>
+          <li>User Registration and Login</li>
+          <li>Period Cycle Tracking</li>
+          <li>Symptom Recording</li>
+          <li>Personal Health Insights</li>
+          <li>Cycle Predictions</li>
+        </ul>
+      </div>
+
+      <div class="project-section">
+        <h2>Technical Stack</h2>
+        <div class="tech-stack">
+          <span class="tech-badge">Flask (Python)</span>
+          <span class="tech-badge">SQLite</span>
+          <span class="tech-badge">Flask-Login</span>
+          <span class="tech-badge">Flask-WTF</span>
+          <span class="tech-badge">Flask-Bcrypt</span>
+        </div>
+      </div>
+    </div>
+    <div class="page-transition"></div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/js/all.min.js"></script>
+    <script src="../../../../js/script.js"></script>
+  </body>
+</html>

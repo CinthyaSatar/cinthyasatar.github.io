@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">BBC News</string>
+    <string name="enter_news">Search</string>
+    <string name="add_button">Enter</string>
+    <string name="refresh">Refresh</string>
+    <string name="favorites">Favourites</string>
+    <string name="readMore">Read More</string>
+    <string name="add_fav">Add to Favourites</string>
+</resources>

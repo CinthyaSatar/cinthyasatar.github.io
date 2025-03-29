@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">BBC Noticias</string>
+    <string name="enter_news">Buscar</string>
+    <string name="add_button">Entrar</string>
+    <string name="refresh">Refrescar</string>
+    <string name="favorites">Favoritos</string>
+    <string name="readMore">Leer mas</string>
+    <string name="add_fav">Anadir a favoritos</string>
+</resources>
