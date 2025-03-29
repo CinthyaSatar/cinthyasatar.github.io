@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  </head>
+  <body>
+    <!-- Add hamburger button -->
+    <button class="hamburger-menu" aria-label="Menu">
+      <i class="fas fa-bars"></i>
+    </button>
+
+    <!-- Modified navbar -->
+    <nav class="navbar">
+      <div class="nav-links">
+        <a href="#home" class="nav-link" data-label="Home">
+          <i class="fas fa-home"></i>
+        </a>
+        <a href="#about" class="nav-link" data-label="About">
+          <i class="fas fa-user"></i>
+        </a>
+        <a href="#projects" class="nav-link" data-label="Projects">
+          <i class="fas fa-code"></i>
+        </a>
+        <a href="#contact" class="nav-link" data-label="Contact">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </div>
+    </nav>
+
+    <div class="main-content">
+      <!-- Hero Section -->
+      <section id="home" class="hero-section" data-aos="fade-up">
+        <div class="hero-content">
+          <h1>Hello, I'm Cinthya Satar</h1>
+          <p>Frontend Developer & Designer</p>
+        </div>
+      </section>
+
+      <!-- About Section -->
+      <section id="about" class="section">
+        <h2 class="section-title" data-aos="fade-up">About Me</h2>
+        <div class="about-grid">
+          <div class="hobby-card" data-aos="fade-up">
+            <h3>🎓 Education</h3>
+            <p>
+              Computer Programming at Algonquin College, with a focus on web
+              development, mobile applications, and software engineering
+              principles.
+            </p>
+          </div>
+          <div class="hobby-card" data-aos="fade-up" data-aos-delay="100">
+            <h3>💻 Technical Skills</h3>
+            <p>
+              Proficient in HTML5, CSS3, JavaScript, Python, Java, and SQL.
+              Experienced with frameworks like Flask and development tools
+              including Git, Android Studio, and VS Code.
+            </p>
+          </div>
+          <div class="hobby-card" data-aos="fade-up" data-aos-delay="200">
+            <h3>🚀 Experience</h3>
+            <p>
+              Developed full-stack web applications and Android apps through
+              course projects, focusing on clean code, user experience, and
+              modern development practices.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Projects Section -->
+      <section id="projects" class="section">
+        <h2 class="section-title" data-aos="fade-up">Projects</h2>
+        <div class="projects-grid">
+          <!-- Flow and Follow Project Card -->
+          <div class="project-card" data-aos="fade-up">
+            <div class="project-preview">
+              <img
+                src="./projects/actual_project/webapp/flowAndFollow/static/thumbnail1.png"
+                alt="Flow and Follow Period Tracker"
+                class="project-thumbnail"
+              />
+              <div class="project-content">
+                <h3>Flow and Follow</h3>
+                <p>
+                  A blog styled webapp to get in touch wth professionals to ask
+                  about any woman related inquiry. You can also post your
+                  inquires for a community of women to support and late to what
+                  you're going through.
+                </p>
+                <div class="project-links">
+                  <a
+                    href="./projects/flow-and-follow-details.html"
+                    class="project-btn"
+                  >
+                    <i class="fas fa-expand"></i> View Details
+                  </a>
+                  <a
+                    href="./projects/actual_project/webapp/flowAndFollow/documentation.html"
+                    class="project-btn"
+                  >
+                    <i class="fas fa-book"></i> Documentation
+                  </a>
+                  <a
+                    href="https://github.com/CinthyaSatar/FinalProject"
+                    class="project-btn"
+                  >
+                    <i class="fab fa-github"></i> GitHub
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- BBC News App Project Card -->
+          <div class="project-card" data-aos="fade-up" data-aos-delay="100">
+            <div class="project-preview">
+              <img
+                src="./images/android-labs/thumbnail2.png"
+                alt="BBC News Android App"
+                class="project-thumbnail"
+              />
+              <div class="project-content">
+                <h3>BBC News App</h3>
+                <p>
+                  An Android application that displays BBC news articles with
+                  features including article search, favorites management, and
+                  detailed article views. Users can browse through news
+                  articles, save their favorite pieces, and access them offline.
+                </p>
+                <div class="project-links">
+                  <a
+                    href="./projects/bbc-news-details.html"
+                    class="project-btn"
+                  >
+                    <i class="fas fa-expand"></i> View Details
+                  </a>
+                  <a
+                    href="./projects/android-labs/documentation.html"
+                    class="project-btn"
+                  >
+                    <i class="fas fa-book"></i> Documentation
+                  </a>
+                  <a
+                    href="https://github.com/CinthyaSatar/BBCNewsApp"
+                    class="project-btn"
+                  >
+                    <i class="fab fa-github"></i> GitHub
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact Section -->
+      <section id="contact" class="section">
+        <h2 class="section-title" data-aos="fade-up">Contact</h2>
+        <div class="float-card" data-aos="fade-up">
+          <h2>Contact</h2>
+          <div class="contact-info">
+            <p><i class="fas fa-envelope"></i> vickysatar@hotmail.com</p>
+            <p><i class="fas fa-phone"></i> (416) 575-3880</p>
+            <p>
+              <i class="fab fa-linkedin"></i>
+              <a
+                href="https://www.linkedin.com/in/cinthya-satar-463a36214"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                LinkedIn Profile
+              </a>
+            </p>
+            <p>
+              <i class="fab fa-github"></i>
+              <a
+                href="https://github.com/CinthyaSatar"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                GitHub Profile
+              </a>
+            </p>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- Custom cursor -->
+    <div class="custom-cursor"></div>
+
+    <!-- Floating nature elements -->
+    <div class="floating-leaf">🌿</div>
+    <div class="floating-leaf">🍃</div>
+    <div class="floating-leaf">🌸</div>
+
+    <!-- Scroll progress plant -->
+    <div class="growing-plant"></div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/js/all.min.js"></script>
+    <script src="js/script.js"></script>
+    <script>
+      // Initialize AOS
+      AOS.init({
+        duration: 800,
+        easing: "ease-out",
+        once: false,
+      });
+    </script>
+    <div class="page-transition"></div>
+  </body>
+</html>
